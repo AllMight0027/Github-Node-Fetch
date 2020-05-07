@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Github User Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap:700" rel="stylesheet">
+        <link rel="icon" href="https://image.freepik.com/free-icon/github-circular_318-10610.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        
+         <div class="container-sm">
+             <div class="row">
+                 <div class="col-12" style="text-align: center;"><h1>Fetch Github Users</h1></div>
+             </div>
+             <div class="row" style="margin-top: 20px;">
+                <div class="col-12" style="text-align: center;">
+                    <input placeholder="Enter the username" style="width: 250px;" id="ipb"><button type="submit" onclick="submit()"><i class="fa fa-search" style="width: 50px;"></i></button>
+                </div>
+            </div>
+            
+         </div>
+         <div class="container col-md-12" style="text-align: center;">
+            <table border=1 style="margin-top: 20px; width: 100%;  text-align: center;">
+                <tbody id="mtab"></tbody>
+            </table>
+        </div>
+         
+    </body>
+
+    <script src="app.js"></script>
+</html>
